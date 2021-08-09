@@ -1,0 +1,272 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+    padding: 0 10px;
+    margin: 0 10px;
+}
+.nenlon
+{
+    width: 100%;
+    height: 3190px;
+    background-color:#E5EEDA;
+}
+.line
+{
+    width: 100%;
+    height: 25px;
+    background-color:#759B57;
+}
+.line ul
+{
+    list-style:none;
+}
+.line ul li
+{
+    text-align: center;
+    padding: 3px 450px;
+}
+.line ul li a
+{
+    text-decoration:none;
+    color:aliceblue;
+}
+.header
+{
+    width: 100%;
+    height: 750px;
+    background: url("../images/186572899_1644058399113162_8267239150847447289_n.jpg");
+    transition: 3s;
+    background-size: cover;
+}
+.header:hover 
+{
+    background: url("../images/154963363_1583588071826862_5892283880839421822_n.png");
+    background-size: cover;
+}
+.logo
+{
+    width: 20%;
+    height: 50px;
+    background-color:#E5EEDA;
+    float: left;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.hinhlogo
+{
+    width: 20%;
+    height: 50px;
+    background-color:#E5EEDA;
+    float:left;
+    overflow: hidden;
+    
+}
+.menu
+{
+    width: 80%;
+    height: 50px;
+    background-color:#E5EEDA;
+    float:left;
+    
+}
+.menu ul
+{
+    list-style:none;
+}
+.menu ul li
+{
+    float:right;
+    text-align:left;
+    padding: 5px 30px;
+    position: relative;
+}
+.menu ul li a
+{
+    text-decoration:none;
+    color:#455E14;
+}
+.menu ul li:hover
+{
+    background-color:#dba37d;
+}
+.text
+{
+    width: 100%;
+    height: 10px;
+    text-align:center;
+    padding-top: 50px;
+    font-size: 20pt;
+    color: #455E14;
+}
+.text02
+{
+    width: 100%;
+    height: 10px;
+    text-align:center;
+    padding-top: 50px;
+    font-size: 15pt;
+    color: #455E14;
+}
+.text01
+{
+    width: 100%;
+    height: 10px;
+    text-align:center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 12pt;
+    color: #455E14;
+    
+}
+.hinh
+{
+    width: 100%;
+    height: 400px;
+    background-color: #E5EEDA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px
+}
+.hinh01
+{
+    width: 25%;
+    height: 350px;
+    background-color:blueviolet;
+    margin: 1%;
+    float:left;
+    overflow: hidden;
+    
+}
+.menu ul li ul
+{ 
+    position: absolute;
+    right: 0px;
+    top: 34px;
+    visibility: hidden;
+}
+.menu ul li ul
+{ 
+    width: 180px;
+    background-color:#E5EEDA;
+}
+.menu ul li:hover ul
+{ 
+    visibility: visible;
+}
+.textphu
+{
+    width: 100%;
+    height: 380px;
+    background-color: #dba37d;
+}
+.hinhtextphu
+{
+    width: 40%;
+    height: 300px;
+    background-color:aquamarine;
+   margin:3%;
+    float:left;
+    overflow: hidden;
+}
+.chuthich
+{
+    width: 45%;
+    height: 270px;
+    margin: 3%;
+    float:left;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 10px;
+    font-size: 13pt;
+    color: #455E14;    
+}
+.text04
+{
+    width: 100%;
+    height: 200px;
+    text-align:center;
+    font-size: 19pt;
+    color: #455E14;
+    padding: 5px
+}
+.hinh03
+{
+    width: 100%;
+    height: 350px;
+    background-color:#dba37d;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.blog
+{
+    width: 100%;
+    height: 10px;
+    font-size: 20pt;
+    padding-bottom: 50px;
+    color: #455E14;
+    text-align: center;
+}
+.hinh04
+{
+    width: 50%;
+    height: 20px;
+    padding-bottom: 220px;
+    background-color: aqua;
+    margin: 3%;
+}
+.hinh04 a
+{
+    text-decoration:none;
+    color:#455E14;
+}
+.clip
+{
+    width: 30%;
+    height: 300px;
+    background: #B3898A;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.end
+{
+    width: 100%;
+    height: 450px;
+    background-color: #759B57;
+    margin-top: 50px;
+    
+}
+.textend
+{
+    width: 100%;
+    height: 10px;
+    font-size: 20pt;
+    color:aliceblue;
+   padding: 100px 250px 50px;
+}
+.textend01
+{
+    width: 100%;
+    height: 15px;
+    font-size: 15pt;
+    color:#e5eeda;
+   padding: 10px 200px;
+}
+.textend01 a
+{
+    text-decoration:none;
+    color:#e5eeda;
+}
+.hinhend
+{
+    width: 40%;
+    height: 320px;
+    background-color: aqua;
+   margin: 5%;
+    float:right;
+    overflow: hidden;
+}
